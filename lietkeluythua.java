@@ -29,6 +29,7 @@ public class lietkeluythua {
 	
 	public static void InLuyThua(int a[]) {
 		Boolean flag = true;
+		System.out.println("Danh sách các gía trị có dang 3^k");
 		for(int i =0;i<a.length;i++) {
 			if(CheckLuyThua(a[i])) {
 				System.out.print(a[i]+"\t");
